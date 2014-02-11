@@ -1,0 +1,39 @@
+---
+title: Welcome to FacePete
+---
+
+<section class="signup">
+  <div>
+   <form name="input" action="/sign-up" method="post">
+    <legend>
+      <strong>Sign Up</strong></strong>
+    </legend>
+       <label for="name">Name</label><br>
+       <input title="Name" type="text" name="name" id="name" class="input-box"> <br>
+        <i>e.g. "Pete Nicholls"</i><br>
+
+       <label for="email">E-mail</label><br>
+       <input type="text" name="email" id="email" class="input-box"><br>
+        <i>e.g. "Pete@FacePete.co.pete"</i><br>
+
+       <label for="password">Password</label><br>
+       <input type="password" id="password" name="password" class="input-box"> <br>
+        
+        <label for="Country">Country</label><br>
+        <select name="Country" id="Country">
+          <option value="New Zealand">New Zealand</option>
+          <option value="England">England</option>
+          <option value="Wales">Wales</option>
+          <option value="Petopia" Selected>Petopia</option>
+        </select> <br>
+        <input type="radio" id="radio1" name="radios" value="all" checked>
+       <label for="radio1">Male</label>
+       <input type="radio" id="radio2" name="radios"value="false">
+       <label for="radio2">Female</label>
+       <br>
+      <input type="checkbox" name="TandC"> I agree to the Terms & Conditions.<br>
+        <input type="submit" value="Submit"> 
+        <br>
+   </form>
+  </div><!-- .welcome -->
+</section>
